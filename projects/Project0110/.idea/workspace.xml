@@ -1,7 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5fd2eb0b-6ae4-4ac1-b9f0-8e9400ca4874" name="Default Changelist" comment="" />
+    <list default="true" id="5fd2eb0b-6ae4-4ac1-b9f0-8e9400ca4874" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../URI/URI1095/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../URI/URI1101/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project0106/.idea/libraries/core1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project0108/.idea/Project0108.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project0108/.idea/libraries/core.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project0108/.idea/libraries/core1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project0108/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project0109/.idea/libraries/core.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project0109/.idea/libraries/core1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project0109/.idea/libraries/core2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project0109/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../URI/URI1005" beforeDir="false" afterPath="$PROJECT_DIR$/../../URI/URI1005" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project0101/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Project0101/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project0101/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Project0101/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project0101/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Project0101/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project0102/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Project0102/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project0102/Project0102.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Project0102/Project0102.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project0102/out/production/Project0102/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Project0102/out/production/Project0102/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project0106/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Project0106/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project0106/Project0106.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Project0106/Project0106.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project0106/out/production/Project0106/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Project0106/out/production/Project0106/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project0106/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Project0106/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project0110.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Project0110.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project0110/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project0110/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,24 +58,41 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="-1024801063">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.30" value="1" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="1266" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="1266" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="39" column="16" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1213#1214#0" expanded="true" />
-                <element signature="e#1249#1250#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="1377">
+              <caret line="81" column="25" lean-forward="true" selection-start-line="81" selection-start-column="25" selection-end-line="81" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -62,19 +107,16 @@
     <option name="width" value="1346" />
     <option name="height" value="688" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="ProjectPane" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543774604949" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../process/processing/Processing/core/library/core.jar!/" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544385500338" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../process/processing/Processing/core/library/core.jar!/" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -125,7 +167,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24963397" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.24963397" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -159,13 +201,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="39" column="16" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1213#1214#0" expanded="true" />
-            <element signature="e#1249#1250#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="1377">
+          <caret line="81" column="25" lean-forward="true" selection-start-line="81" selection-start-column="25" selection-end-line="81" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -234,7 +271,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>core</last-edited>
+          <last-edited>core1</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

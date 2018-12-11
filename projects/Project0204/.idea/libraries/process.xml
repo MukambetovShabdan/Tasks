@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="process">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../../process" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/../../../process/processing1001/src" />
+      <root url="file://$PROJECT_DIR$/../../../process/processing1002/src" />
+    </SOURCES>
+  </library>
+</component>
