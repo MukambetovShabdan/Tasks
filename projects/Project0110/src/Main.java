@@ -1,81 +1,93 @@
 import processing.core.PApplet;
 
 import javax.swing.*;
-import java.util.Scanner;
+
 
 public class Main extends PApplet {
-
-    //Scanner scan = new Scanner(System.in);
-    //int num = scan.nextInt();
-
-    float x;
-    float x1 = 0;
-    float y;
-    float y1 = 0;
-    int r = 100;
-    float alpha;
-    float dx = 3;
-    float dy = 3;
-    float centerx;
-    float centery;
-
-    public void settings() {
-        fullScreen();
-    }
-
-    public void setup() {
-
-        frameRate(100);
-    }
+   static int n;
 
 
-    public void draw() {
-        background(0);
-        pushMatrix();
+   float x;
+   float x1;
+   float y;
+   float y1;
+   float r;
+   float mainquadro = 300;
+   float distance;
+   float alfa;
+   float dx = 3;
+   float dy = 3;
 
-        x = width / 2;
-        y = height / 2;
-        translate(x, y);
-        x += dx;
-        y += dy;
-        rotate(alpha);
-        alpha += 0.03;
-        fill(255, 255, 0);
+   public void settings() {
+       fullScreen();
+   }
 
-        centerx = 0;
-        centery = 0;
-        rectMode(CENTER);
-        rect(centerx, centery, r, r);
+   public void setup() {
 
-
-        centerx += dx;
-        //centery += dy;
-
-
-        /*if (x1 > width - r){
-            x1 = width - r;
-            dx = - dx;
-        }
-        if (x1 < 0){
-            x1 = 0;
-            dx = -dx;
-        }
-
-        if (y1 > height - r){
-            y1 = height - r;
-            dy = - dy;
-        }
-        if (y1 < 0){
-            y1 = 0;
-            dy = -dy;
-        }*/
+       frameRate(100);
+       noStroke();
+       r = (float) (mainquadro / (Math.sqrt(2.0)) / n);
+       distance = mainquadro / n /2;
+       x1 = width / 2 - distance * (n - 1);
+       y1 = height / 2 - distance * (n - 1);
+       x = width/2;
+       y = height/2;
 
 
-        popMatrix();
 
-    }
+   }
 
-    public static void main(String... args) {
-        PApplet.main("Main");
-    }
+
+   public void draw() {
+       background(0, 40);
+       pushMatrix();
+       translate(x, y);
+       for (float i = 0; i <= distance*2 * (n-1); i += 2 * distance) {
+           kvadrat(i, 0);
+           for (float f = 0; f <= distance*2 * (n - 1); f +=2* distance) {
+               kvadrat(i, f);
+           }
+       }
+
+       popMatrix();
+       x += dx;
+       y += dy;
+       if (x > width + distance - mainquadro){
+           x = width + distance - mainquadro;
+           dx = -dx;
+       }
+       if (x < distance){
+           x = distance;
+           dx = -dx;
+       }
+       if (y > height + distance - mainquadro){
+           y = height + distance - mainquadro;
+           dy = -dy;
+       }
+       if (y < distance ){
+           y = distance;
+           dy = -dy;
+       }
+
+
+
+   }
+
+   void kvadrat(float x, float y) {
+       pushMatrix();
+       translate(x, y);
+       rotate(alfa);
+       alfa += 0.003;
+       fill(255,0,0);
+       rectMode(CENTER);
+       rect(0, 0, r, r);
+       popMatrix();
+   }
+
+   public static void main(String... args) {
+       n = Integer.parseInt(JOptionPane.showInputDialog("N? "));
+       PApplet.main("Main");
+   }
 }
+
+
