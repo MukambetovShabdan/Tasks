@@ -4,22 +4,13 @@ import javax.swing.*;
 import java.util.Random;
 
 public class Main extends PApplet {
-
-    float x;
-    float y;
-    float r = 100;
-
+    float r = 200;
     public void settings() {
         fullScreen();
     }
-
     public void setup() {
         frameRate(100);
-
-
     }
-
-
     public void draw() {
         background(0);
         drawStar(width / 2, height / 2, r, 255, 0, 0);
@@ -35,7 +26,8 @@ public class Main extends PApplet {
 
     void drawStar(float x, float y, float r, int a, int b, int c) {
         pushMatrix();
-        float smallr = (float) (r / 2 / Math.sqrt(2));
+        float d = 3;
+        float smallr = (float) (r / d / Math.sqrt(2));
         translate(x, y);
         fill(a, b, c);
         stroke(a, b, c);
@@ -60,14 +52,17 @@ public class Main extends PApplet {
         line(r, 0, smallr, -smallr);
 
         rotate(PI / 4);
-        line(0, 0, r / 2, 0);
+        line(0, 0, r / d, 0);
 
         rotate(PI / 2);
-        line(0, 0, r / 2, 0);
+        line(0, 0, r / d, 0);
+
         rotate(PI / 2);
-        line(0, 0, r / 2, 0);
+        line(0, 0, r / d, 0);
+
         rotate(PI / 2);
-        line(0, 0, r / 2, 0);
+        line(0, 0, r / d, 0);
+
         popMatrix();
 
 
