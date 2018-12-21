@@ -7,7 +7,7 @@ public class Main {
         int a = scan.nextInt();
         if (a > 2 && a < 1000) {
             for (int i = 1; i <= 10; i++) {
-                System.out.println(i + " * " + a + " = " + i * a);
+                System.out.println(i + " x " + a + " = " + i * a);
             }
         }
 

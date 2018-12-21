@@ -15,8 +15,8 @@ public class Main extends PApplet {
     float mainquadro = 300;
     float distance;
     float alfa;
-    float dx = 3;
-    float dy = 3;
+    float dx = 5;
+    float dy = 5;
 
     public void settings() {
         fullScreen();
@@ -39,7 +39,9 @@ public class Main extends PApplet {
 
 
     public void draw() {
-        background(0, 40);
+        fill(0,0,0,36);
+        rectMode(CENTER);
+        rect(width/2,height/2,width, height);
         pushMatrix();
         translate(x, y);
         for (float i = 0; i <= distance*2 * (n-1); i += 2 * distance) {

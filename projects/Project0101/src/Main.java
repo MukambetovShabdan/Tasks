@@ -5,8 +5,9 @@ public class Main extends PApplet {
     float x;
     float x1;
     float y;
-    float dbr = 0.05f;
-    float dsr = 0.01f;
+    int speed = 3;
+    float dbr = 0.05f * speed;
+    float dsr = 0.01f* speed;
     float br = 25;
     float sr = 10;
     float stopbr = 150;
@@ -23,7 +24,7 @@ public class Main extends PApplet {
 
 
     public void draw() {
-        background(0);
+        background(0,24,41);
 
 
 
@@ -39,7 +40,7 @@ public class Main extends PApplet {
     void smallStar(float x, float y){
         pushMatrix();
         translate(x,y);
-        stroke(0,255,0);
+        stroke(211,215,182);
         strokeWeight(4);
         line(0,0,br,0); // line +
         line(0,0,sr,sr);
@@ -112,7 +113,7 @@ public class Main extends PApplet {
 
         pushMatrix();
         translate(x,y);
-        stroke(255,255,0);
+        stroke(240,200,40);
         strokeWeight(4);
         line(0,0,(stopbr + stopbr/6) - br,0); // line +
         line(0,0,stopsr - sr,stopsr - sr);

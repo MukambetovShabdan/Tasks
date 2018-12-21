@@ -4,41 +4,30 @@ public class Main {
 
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
+        for(int f = 0; f<1000; f++){
         int a = scan.nextInt();
         int b = scan.nextInt();
-        int d;
-        int c = 0;
-        if (a > 0 && b > 0) {
-            if (a > b) {
-                d = a + b;
-                System.out.print(b);
-                while (b != a - 1) {
-                    b++;
-                    c = c + b;
-                    System.out.print(" " + b);
-
+        int sum = 0;
+            if (a <= 0 || b <= 0){
+                break;
+            }
+            else if (a > 0 && b > 0) {
+                if (a > b) {
+                    for (int i = b; i <= a; i++) {
+                        sum += i;
+                        System.out.print(i + " ");
+                    }
+                    System.out.println("Sum=" + sum);
+                } else if (b > a) {
+                    for (int i = a; i <= b; i++) {
+                        sum += i;
+                        System.out.print(i + " ");
+                    }
+                    System.out.println("Sum=" + sum);
+                } else if (a == b) {
+                    System.out.println(a + "Sum=" + b);
                 }
-                System.out.print(" " + a + " ");
-                System.out.println("Sum=" + (c + d));
             }
-            if (b > a) {
-                d = b + a;
-                System.out.print(a);
-                while (a != b - 1) {
-                    a++;
-                    c = c + a;
-                    System.out.print(" " + a);
-                }
-                System.out.print(" " + b + " ");
-                System.out.println("Sum=" + (c + d));
-
-            }
-            if (a == b) {
-                System.out.print(a + " " + b + " Sum=" + (a + b));
-            }
-
-
         }
     }
 }
-
